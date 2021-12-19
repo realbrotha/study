@@ -1,10 +1,5 @@
-let box = document.querySelectorAll('.box');
+import _ from 'lodash';
 
-box.forEach( function (box, index) {
-   console.log("this : " +box.textContent);
-
-   box.textContent = "?????????";
-
-});
-let test = "hehe".split('').reverse().join();
-console.log(test);
+console.log('hello wrold');
+console.log(_.camelCase("hello wrold"));
+console.log('test test');
